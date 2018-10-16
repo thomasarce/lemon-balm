@@ -1,0 +1,536 @@
+header:after, section.hero:after, section.reviews ul.reviews-list:after, section.deals ul.deals-list li.deals-item .deals-item-container:after, section.tammy:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+main {
+  margin-top: 124px; }
+  @media (min-width: 768px) {
+    main {
+      max-width: 960px;
+      margin: 124px auto 0; } }
+
+header {
+  width: 100%;
+  border-bottom: 3px solid rgba(109, 110, 112, 0.87);
+  overflow: hidden;
+  position: fixed;
+  background: white;
+  top: 0;
+  z-index: 100; }
+  @media (min-width: 900px) {
+    header {
+      zoom: .9; } }
+  header .header-promo {
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #6d6e70;
+    color: white;
+    vertical-align: middle;
+    border-bottom: 3px solid #d1a43c; }
+  header img.header-logo {
+    display: none; }
+    @media (min-width: 768px) {
+      header img.header-logo {
+        float: left;
+        height: 86px;
+        width: auto;
+        padding: 10px 14px;
+        box-sizing: border-box;
+        display: block; } }
+  header img.header-logo-mobile {
+    float: left;
+    height: 86px;
+    width: auto;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    display: block; }
+    @media (min-width: 768px) {
+      header img.header-logo-mobile {
+        display: none; } }
+  header .header-cta {
+    float: right;
+    width: 160px;
+    padding: 18px 16px 0 0;
+    box-sizing: border-box;
+    display: block; }
+    header .header-cta a.header-cta-button {
+      text-decoration: none;
+      background: #ff4c00;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding: 1px 12px;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      box-sizing: border-box;
+      width: 100%;
+      border-width: 3px;
+      border-radius: 6px;
+      border-style: solid;
+      border-top-color: #ffa481;
+      border-left-color: #cd3800;
+      border-right-color: #cd3800;
+      border-bottom-color: #a23000; }
+    header .header-cta .header-cta-caption {
+      margin-top: 2px;
+      display: block;
+      width: 100%;
+      font-size: 11px;
+      text-align: center; }
+
+section.hero {
+  position: relative;
+  min-height: 400px; }
+  section.hero h1.hero-title {
+    padding: 24px 24px 12px;
+    box-sizing: border-box;
+    font-size: 29px;
+    line-height: 1.4;
+    text-align: center;
+    color: #9a7e33; }
+    @media (min-width: 768px) {
+      section.hero h1.hero-title {
+        float: right;
+        width: 60%;
+        text-align: left;
+        padding: 28px 48px 0;
+        margin: 0; } }
+    @media (min-width: 900px) {
+      section.hero h1.hero-title {
+        font-size: 29px;
+        font-weight: bold;
+        margin-right: 96px;
+        padding: 42px 0 12px; } }
+  section.hero img.hero-image {
+    height: 100%; }
+    @media (min-width: 768px) {
+      section.hero img.hero-image {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: auto;
+        margin-left: -12.5%;
+        z-index: -1; } }
+  section.hero h2.hero-benefits-caption {
+    font-size: 21px;
+    padding: 12px 48px 0;
+    width: 100%;
+    display: block;
+    color: rgba(0, 0, 0, 0.7); }
+    @media (min-width: 768px) {
+      section.hero h2.hero-benefits-caption {
+        float: right;
+        width: 60%;
+        text-align: left; } }
+    @media (min-width: 900px) {
+      section.hero h2.hero-benefits-caption {
+        padding: 12px 0 0; } }
+  section.hero ul.hero-benefits {
+    width: 100%;
+    padding: 12px 48px 0;
+    box-sizing: border-box; }
+    @media (min-width: 768px) {
+      section.hero ul.hero-benefits {
+        float: right;
+        width: 60%;
+        text-align: left; } }
+    @media (min-width: 900px) {
+      section.hero ul.hero-benefits {
+        zoom: 1.2;
+        padding: 12px 0 0; } }
+    section.hero ul.hero-benefits li.hero-benefits-item {
+      font-size: 15px;
+      line-height: 1.2;
+      padding: 12px 0;
+      list-style-type: disc;
+      list-style-position: inside; }
+  section.hero a.hero-cta {
+    text-decoration: none;
+    display: block;
+    margin: 24px 42px 36px;
+    box-sizing: border-box;
+    background: #ff4c00;
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+    padding: 3px 12px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-radius: 8px;
+    border-style: solid;
+    border-top-color: #ffa481;
+    border-left-color: #cd3800;
+    border-right-color: #cd3800;
+    border-bottom-color: #a23000; }
+    @media (min-width: 768px) {
+      section.hero a.hero-cta {
+        float: left;
+        clear: both;
+        margin-left: 45%;
+        padding: 3px 48px; } }
+    @media (min-width: 900px) {
+      section.hero a.hero-cta {
+        margin-left: 40%; } }
+
+@media (min-width: 768px) {
+  section.info {
+    position: relative;
+    max-height: 460px;
+    overflow: hidden; } }
+section.info img.info-image {
+  width: 100%; }
+  @media (min-width: 768px) {
+    section.info img.info-image {
+      float: right;
+      width: 64%; } }
+section.info .info-benefits {
+  margin: 24px 48px; }
+  @media (min-width: 768px) {
+    section.info .info-benefits {
+      position: absolute;
+      width: 40%;
+      text-align: left;
+      top: 45%;
+      transform: translateY(-50%); } }
+  @media (min-width: 900px) {
+    section.info .info-benefits {
+      zoom: 1.2; } }
+  section.info .info-benefits h2.info-title {
+    font-size: 19px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      section.info .info-benefits h2.info-title {
+        text-align: left; } }
+  section.info .info-benefits p.info-caption {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px; }
+    @media (min-width: 768px) {
+      section.info .info-benefits p.info-caption {
+        text-align: left; } }
+
+@media (min-width: 768px) {
+  section.lemons {
+    padding: 48px;
+    box-sizing: border-box;
+    position: relative; } }
+section.lemons img.lemons-image {
+  width: 100%; }
+  @media (min-width: 768px) {
+    section.lemons img.lemons-image {
+      padding: 48px;
+      margin: -36px 0; } }
+section.lemons .lemons-benefits {
+  margin: 24px 48px 48px; }
+  @media (min-width: 768px) {
+    section.lemons .lemons-benefits {
+      position: absolute;
+      top: 96px;
+      width: 60%;
+      right: 0; } }
+  section.lemons .lemons-benefits p.lemons-copy {
+    font-size: 19px; }
+
+@media (min-width: 768px) {
+  section.sleep {
+    padding-bottom: 48px; } }
+section.sleep .sleep-benefits {
+  margin: 36px 20px; }
+  section.sleep .sleep-benefits .sleep-title {
+    font-size: 29px;
+    line-height: 1.3;
+    text-align: center; }
+    @media (min-width: 768px) {
+      section.sleep .sleep-benefits .sleep-title {
+        width: 80%;
+        margin: auto; } }
+    section.sleep .sleep-benefits .sleep-title.yellow {
+      font-size: 27px;
+      color: #9a7e33; }
+  section.sleep .sleep-benefits .sleep-copy {
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 20px; }
+    @media (min-width: 768px) {
+      section.sleep .sleep-benefits .sleep-copy {
+        width: 60%;
+        margin: 20px auto; } }
+section.sleep img.sleep-image-mobile {
+  width: 100%;
+  display: block; }
+  @media (min-width: 768px) {
+    section.sleep img.sleep-image-mobile {
+      display: none; } }
+section.sleep img.sleep-image-big {
+  display: none; }
+  @media (min-width: 768px) {
+    section.sleep img.sleep-image-big {
+      width: 100%;
+      display: block;
+      padding: 96px;
+      margin: -48px 0; } }
+section.sleep img.sleep-badges {
+  display: block;
+  width: 90%;
+  margin: auto; }
+  @media (min-width: 768px) {
+    section.sleep img.sleep-badges {
+      width: 440px;
+      margin: auto; } }
+
+section.reviews {
+  margin: 24px; }
+  section.reviews h2.reviews-title {
+    font-size: 29px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      section.reviews h2.reviews-title {
+        text-align: left; } }
+  section.reviews ul.reviews-list .reviews-image {
+    float: right;
+    width: 32%; }
+  section.reviews ul.reviews-list li.reviews-item {
+    margin-top: 32px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: #fffdeb; }
+    @media (min-width: 768px) {
+      section.reviews ul.reviews-list li.reviews-item {
+        float: left; } }
+    @media (min-width: 768px) {
+      section.reviews ul.reviews-list li.reviews-item:nth-of-type(1) {
+        width: 64%; } }
+    @media (min-width: 768px) {
+      section.reviews ul.reviews-list li.reviews-item:nth-of-type(2) {
+        width: 46%;
+        margin-top: 64px; } }
+    @media (min-width: 768px) {
+      section.reviews ul.reviews-list li.reviews-item:nth-of-type(3) {
+        width: 46%;
+        float: right; } }
+    @media (min-width: 768px) {
+      section.reviews ul.reviews-list li.reviews-item:nth-of-type(4) {
+        width: 46%;
+        margin-top: 64px; } }
+    @media (min-width: 768px) {
+      section.reviews ul.reviews-list li.reviews-item:nth-of-type(5) {
+        width: 46%;
+        margin-top: 64px;
+        float: right; } }
+    section.reviews ul.reviews-list li.reviews-item .reviews-item-stars {
+      margin-top: -30px;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: #00733d; }
+    section.reviews ul.reviews-list li.reviews-item .reviews-item-title {
+      font-size: 25px;
+      font-weight: bold; }
+    section.reviews ul.reviews-list li.reviews-item .reviews-item-copy {
+      font-size: 21px;
+      line-height: 1.6;
+      margin: 12px 0; }
+  section.reviews .reviews-cta {
+    text-decoration: none;
+    display: block;
+    margin: 24px 24px 36px;
+    box-sizing: border-box;
+    background: #ff4c00;
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+    padding: 3px 12px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-radius: 8px;
+    border-style: solid;
+    border-top-color: #ffa481;
+    border-left-color: #cd3800;
+    border-right-color: #cd3800;
+    border-bottom-color: #a23000; }
+    @media (min-width: 768px) {
+      section.reviews .reviews-cta {
+        display: none; } }
+
+section.deals img.deals-image {
+  width: 100%; }
+  @media (min-width: 768px) {
+    section.deals img.deals-image {
+      display: none; } }
+section.deals ul.deals-list {
+  margin: 24px 0; }
+  @media (min-width: 768px) {
+    section.deals ul.deals-list {
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      width: 100%; } }
+  section.deals ul.deals-list li.deals-item {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-top-width: 0;
+    margin: 24px;
+    margin-top: 36px; }
+    @media (min-width: 768px) {
+      section.deals ul.deals-list li.deals-item {
+        margin: 12px;
+        width: 380px; } }
+    section.deals ul.deals-list li.deals-item:nth-of-type(2) .deals-item-offer {
+      padding: 32px 0 28px; }
+    section.deals ul.deals-list li.deals-item h2.deals-item-title {
+      padding: 12px 12px;
+      box-sizing: border-box;
+      background: rgba(108, 190, 69, 0.87);
+      color: white;
+      font-size: 31px;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase; }
+    section.deals ul.deals-list li.deals-item h3.deals-item-name {
+      font-size: 31px;
+      margin: 24px 16px 0;
+      line-height: 1;
+      text-align: center; }
+    section.deals ul.deals-list li.deals-item h4.deals-item-subname {
+      font-size: 21px;
+      margin: 0 16px; }
+    section.deals ul.deals-list li.deals-item ul.deals-item-list {
+      float: left;
+      width: 40%;
+      margin: 12px 0 0 16px;
+      width: 42%; }
+      section.deals ul.deals-list li.deals-item ul.deals-item-list li {
+        list-style-type: disc;
+        list-style-position: inside; }
+    section.deals ul.deals-list li.deals-item img {
+      margin: 24px auto 12px;
+      height: 220px;
+      width: auto;
+      display: block; }
+    section.deals ul.deals-list li.deals-item .deals-item-offer {
+      float: left;
+      width: 100%;
+      margin-top: 24px;
+      padding: 16px 0 12px;
+      text-align: center;
+      background: rgba(255, 233, 101, 0.36);
+      color: #d2232a; }
+      section.deals ul.deals-list li.deals-item .deals-item-offer h4 {
+        font-size: 31px;
+        font-weight: bold;
+        line-height: 1; }
+      section.deals ul.deals-list li.deals-item .deals-item-offer p {
+        font-size: 19px;
+        font-weight: bold; }
+    section.deals ul.deals-list li.deals-item a.deals-item-cta {
+      text-decoration: none;
+      display: block;
+      margin: 24px 42px 24px;
+      box-sizing: border-box;
+      background: #ff4c00;
+      font-size: 21px;
+      font-weight: bold;
+      display: block;
+      padding: 3px 12px;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      border-width: 3px;
+      border-radius: 8px;
+      border-style: solid;
+      border-top-color: #ffa481;
+      border-left-color: #cd3800;
+      border-right-color: #cd3800;
+      border-bottom-color: #a23000; }
+
+@media (min-width: 768px) {
+  section.tammy {
+    padding: 0 36px;
+    position: relative; } }
+section.tammy img.tammy-image-portrait {
+  width: 80%;
+  max-width: 200px;
+  display: block;
+  margin: 48px auto 24px; }
+  @media (min-width: 768px) {
+    section.tammy img.tammy-image-portrait {
+      float: left;
+      margin: 0 48px 200px 0;
+      width: 160px; } }
+section.tammy .tammy-title {
+  font-size: 29px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #9a7e33;
+  font-weight: bold; }
+  @media (min-width: 768px) {
+    section.tammy .tammy-title {
+      text-align: left; } }
+section.tammy .tammy-copy {
+  width: 80%;
+  text-align: center;
+  margin: 24px auto;
+  font-size: 21px;
+  line-height: 1.8; }
+  @media (min-width: 768px) {
+    section.tammy .tammy-copy {
+      text-align: left; } }
+section.tammy img.tammy-image-sign {
+  width: 80%;
+  max-width: 200px;
+  display: block;
+  margin: 12px auto 24px; }
+  @media (min-width: 768px) {
+    section.tammy img.tammy-image-sign {
+      position: absolute;
+      margin-top: -8px;
+      left: 424px; } }
+
+section.security {
+  padding: 86px 10% 48px;
+  box-sizing: border-box;
+  background: #ffea6c;
+  -webkit-box-shadow: inset 0px 40px 80px 0px white;
+  -moz-box-shadow: inset 0px 40px 80px 0px white;
+  box-shadow: inset 0px 40px 80px 0px white;
+  text-align: center;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw; }
+  section.security h2 {
+    font-size: 27px;
+    line-height: 1.6; }
+  section.security p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-top: 12px; }
+
+section.copy {
+  padding: 24px 10%;
+  box-sizing: border-box;
+  color: white;
+  background: #6d6e70;
+  text-align: center;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw; }
